@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://6nsoo6pcjxyi"
-path="res://.godot/imported/icon_func_finder.png-836cf21c81118ada730db7f442585b33.ctex"
+uid="uid://ihnmhpb28qyp"
+path="res://.godot/imported/icon_block_jumper.png-b31fabd32c551e57a5b330c4b0450337.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon_func_finder.png"
-dest_files=["res://.godot/imported/icon_func_finder.png-836cf21c81118ada730db7f442585b33.ctex"]
+source_file="res://icon_block_jumper.png"
+dest_files=["res://.godot/imported/icon_block_jumper.png-b31fabd32c551e57a5b330c4b0450337.ctex"]
 
 [params]
 

@@ -10,8 +10,8 @@ config_version=5
 
 [application]
 
-config/name="Gdscript func finder pageup/down shortcuts"
-config/features=PackedStringArray("4.3", "Forward Plus")
+config/name="Gdscript block jumper"
+config/features=PackedStringArray("4.4", "Forward Plus")
 run/max_fps=60
 
 [dotnet]
@@ -20,4 +20,4 @@ project/assembly_name="Gdscript func finder pageup-down shortcuts"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/gdscript_func_finder/plugin.cfg")
+enabled=PackedStringArray("res://addons/gdscript_block_jumper/plugin.cfg")

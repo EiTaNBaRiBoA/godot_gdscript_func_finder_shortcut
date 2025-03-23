@@ -1,16 +1,31 @@
-# Gdscript func finder shortcuts
+# Gdscript Space Block Jumper
 
-Very simple plugin that adds shortcuts to scroll the code to the previous and next func definitions.
+Very simple plugin that let's you move around your code really fast with shortcuts.
 
-Inspired by PICO-8 script editor where you use the 'page up/down' keys to move across functions.
+![](example_jumper.gif)
+
+Use *page-up* or *page-down* to jump to the next empty line.
+
+You can also *hold shift* to to jump to func definitions.
+
+Initially inspired by PICO-8 script editor where you use the 'page up/down' keys to move acress functions.
 
 Shortcuts:
-- Page Up : Go to previous 'func'
-- Page Down : Go to next 'func'
-
+- Page Down : Go to next empty line
+- Page Up : Go to previous empty line
+- Shift + Page Down : Go to next 'func'
+- Shift + Page Up : Go to previous 'func'
 
 # Configuration
 
-You can set the `Use Shift` configuration in the ProjectSettings/Plugins/Gdscript Func Finder.
+You can set the `Shift to Move Space Behavior` configuration in the ProjectSettings/Plugins/Gdscript Block Jumper.
 
-If you enable this, the scroll shortcut will only work when you are holding shift and you can use the page up/down keys with their normal scroll behavior.
+If you enable this, the scroll commands will be switched.
+
+PageUp/Down will scroll to func and shift+PageUp/Down will jump to empty lines
+
+## Todo
+
+- Add ability to select lines while jumping around
+- Add configurable hotkeys
+- Use some option+arrow combination to move, if configurable hotkeys doesn't work for that.
